@@ -19,6 +19,8 @@ LABELS = [
     "a car passing by",
     "a truck passing by",
     "an airplane or aircraft flying",
+    "an airplane or aircraft flying overhead",
+    "a train passing by",
     "a motorcycle",
     "background noise",
     "human speech",
