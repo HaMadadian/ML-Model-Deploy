@@ -70,7 +70,7 @@ def split_audio(audio, sr, chunk_sec=10, hop_sec=5):
 def classify_chunk(audio_chunk, sr):
     """Run AST on one chunk"""
     inputs = feature_extractor(
-        audio_chunk,
+        audio=audio_chunk,
         sampling_rate=sr,
         return_tensors="pt",
         padding=True
